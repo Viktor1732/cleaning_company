@@ -24,7 +24,88 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 1556px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.top {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    background-color: #EFEFEE;
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 54px;
+}
+
+.top-menu a {
+    color: #2F3131;
+    font-size: 18px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    height: 26px;
+    padding-left: 43px;
+    color: #2F3131;
+    font-size: 18px;
+    background-image: url("../images/icon/login-circle.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.top2 {
+    padding: 20px 0 16px 0;
+    background-color: #ffffff;
+}
+
+.top2-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 43px;
+}
+
+.logo span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2F3131;
+    font-weight: bold;
+}
+
+.top2-phone {
+    display: flex;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    column-gap: 42px;
+}
+
+
+
+
+
+.top2-call-btn {
+    color: #2F3131;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 56px;
+    background-color: #FFCC34;
+    border-radius: 8px;
 }
