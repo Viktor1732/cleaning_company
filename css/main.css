@@ -1,151 +1,136 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 11px;
-    position: relative;
-    min-height: 100vh;
+    font-size: 14px;
 }
 
-.wrapper {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
-.container {
-    width: 1556px;
+/* nav */
+
+.header-container {
+    max-width: 1393px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-/* top */
-
-.top {
-    display: flex;
-    height: 54px;
-    align-items: center;
-    background-color: #EFEFEE;
-}
-
-.top-wrapper {
+.nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #EFEFEE;
+    height: 54px;
 }
 
-.top-menu {
+.nav-items {
     display: flex;
-    align-items: center;
     column-gap: 54px;
 }
 
-.top-menu a {
+.nav-link {
+    font-size: 16px;
     color: #2F3131;
-    font-size: 18px;
 }
 
-.login {
+.login-link {
     display: flex;
     align-items: center;
-    height: 26px;
-    padding-left: 43px;
+    column-gap: 10px;
+}
+
+.login-text {
     color: #2F3131;
-    font-size: 18px;
-    background-image: url("../images/icon/login-circle.svg");
-    background-repeat: no-repeat;
-    background-position: left center;
+    font-size: 16px;
+}
+
+.login-img {
+    width: 26px;
+    height: 26px;
 }
 
 
-/* top2 */
+/* header-contcts-info */
 
-.top2 {
-    padding: 20px 0 16px 0;
-    background-color: #ffffff;
-}
-
-.top2-wrapper {
+.header-contcts-info {
     display: flex;
+    height: 100px;
+    background-color: #ffffff;
     justify-content: space-between;
+    align-items: center;
 }
-
-.logo {
+.header-logo {
     display: flex;
     align-items: center;
     column-gap: 43px;
 }
-
-.logo span {
+.logo-img {
+    width: 172px;
+    height: 66px;
+}
+.logo-text {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     color: #2F3131;
-    font-weight: bold;
 }
-
-.top2-cont {
+.header-contacts {
     display: flex;
-    column-gap: 42px;
-    align-items: center;
-}
-
-.top2-col{
     text-align: center;
+    column-gap: 42px;
 }
-
-.top2-phone {
+.header-contact {
+ 
+}
+.contact-phone {
+    font-weight: 700;
+    font-size: 18px;
     color: #000000;
-    font-size: 18px;
-    font-weight: bold;
-    font-weight: 700;
+    line-height: 1.2;
 }
-
-.top-phone-label {
-    color: #2F3131;
-    font-size: 14px;
+.contact-desc {
     font-weight: 700;
-    line-height: 0.5;
+    line-height: 1.2;
 }
-
-.top2-btn {
-    color: #2F3131;
-    font-size: 18px;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 56px;
-    background-color: #FFCC34;
-    border-radius: 8px;
+.contact-btn {
     margin-left: 64px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact-btn-call {
+    font-weight: 700;
+    line-height: 1.3;
+    color: #2F3131;
+    padding: 17px 57px;
+    border-radius: 8px;
+    background-color: #FFCC34;
+    align-items: center;
     transition: background-color 0.3s linear;
 }
 
-.top2-btn:hover {
-    background-color: #ff8f34;
+.contact-btn-call:hover {
+    background-color: #ffa734;
 }
 
 
-/* top3 */
+/* header-categories */
 
-.top3 {
-    background-color: #016C88;
-    padding: 27px 0;
+.header-menu{
+    background-color: #00728F;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.top3-wrapper {
-    text-align: center;
+.header-menu-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.top3-menu {
-    display: inline-flex;
-    column-gap: 92px;
-}
-
-.top3-menu-item {
-    font-size: 20px;
+.header-menu-link {
+    font-weight: 700;
+    line-height: 24;
     color: #ffffff;
 }
 
