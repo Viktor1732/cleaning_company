@@ -20,100 +20,112 @@
     <header class="header">
         <div class="header-container">
             <div class="header-nav">
-
+                
                 <!-- nav -->
-                <nav class="nav">
-                    <ul class="nav-items">
-                        <li class="nav-item"><a href="#!" class="nav-link">О компании</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">Акции</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">Новости</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">Статьи</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">Вакансии</a></li>
-                        <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
-                    </ul>
-                    <div class="nav-login">
-                        <a href="#!" class="login-link">
-                            <img src="./images/icon/login-circle.svg" alt="login" class="login-img">
-                            <p class="login-text">Личный кабинет</p>
-                        </a>
-                    </div>
-                </nav>
-
+                <div class="container-nav">
+                    <nav class="nav">
+                        <ul class="nav-items">
+                            <li class="nav-item"><a href="#!" class="nav-link">О компании</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Акции</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Новости</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Статьи</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Вакансии</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Контакты</a></li>
+                        </ul>
+                        <div class="nav-login">
+                            <a href="#!" class="login-link">
+                                <img src="./images/icon/login-circle.svg" alt="login" class="login-img">
+                                <p class="login-text">Личный кабинет</p>
+                            </a>
+                        </div>
+                    </nav>
+                </div>    
+                
                 <!-- header-contacts-info -->
-                <div class="header-contcts-info">
-                    <div class="header-logo">
-                        <img src="./images/logo/logo.svg" alt="logo" class="logo-img">
-                        <div class="logo-text">
-                            <p>Клининговая компания</p>
+                <div class="container-header-contents">
+                    <div class="header-contents-info">
+                        <div class="header-logo">
+                            <img src="./images/logo/logo.svg" alt="logo" class="logo-img">
+                            <div class="logo-text">
+                                <p>Клининговая<br> компания</p>
+                            </div>
                         </div>
+                        <div class="header-contacts">
+                            <div class="header-contact">
+                                <div><a href="tel:+74995006190" class="contact-phone">+7 (499) 500-61-90</a></div>
+                                <p class="contact-desc">Для частных лиц</p>
+                            </div>
+                            <div class="header-contact">
+                                <div><a href="tel:+74959830266" class="contact-phone">+7 (495) 983-02-66</a></div>
+                                <p class="contact-desc">Для организаций</p>
+                            </div>
+                            <div class="contact-btn">
+                                <a href="#!" class="contact-btn-call">Заказать звонок</a>
+                            </div>
+                        </div>       
                     </div>
-                    <div class="header-contacts">
-                        <div class="header-contact">
-                            <div><a href="tel:+74995006190" class="contact-phone">+7 (499) 500-61-90</a></div>
-                            <p class="contact-desc">Для частных лиц</p>
-                        </div>
-                        <div class="header-contact">
-                            <div><a href="tel:+74959830266" class="contact-phone">+7 (495) 983-02-66</a></div>
-                            <p class="contact-desc">Для организаций</p>
-                        </div>
-                        <div class="contact-btn">
-                            <a href="#!" class="contact-btn-call">Заказать звонок</a>
-                        </div>
-                    </div>       
-                </div>
+                </div>    
 
-                <!-- header-categories -->
-                <nav class="header-menu">
-                    <ul class="header-menu-items">
+                <!-- header-menu -->
+                <nav class="header-menu-container">
+                    <ul class="header-menu">
                         <li class="header-menu-item"><a href="#!" class="header-menu-link">Офисы и помещения</a></li>
-                         <li class="header-menu-item"><a href="#!" class="header-menu-link">Квартира и дом</a></li>
+                        <li class="header-menu-item"><a href="#!" class="header-menu-link">Квартира и дом</a></li>
                         <li class="header-menu-item"><a href="#!" class="header-menu-link">Мытье окон</a></li>
                         <li class="header-menu-item"><a href="#!" class="header-menu-link">Химчистка</a></li>
                         <li class="header-menu-item"><a href="#!" class="header-menu-link">Дополнительные услуги</a></li>
                     </ul> 
                 </nav>
             </div>
-            <div class="header-content">
-                <div class="header-heading">
+        </div>    
+    </header>    
+
+    <!-- baner-content -->
+    <div class="banner-wrapper">
+        <div class="banner-container">
+            <section class="banner-content">
+                <div class="banner-heading">
                     <h1>Клининговая компания в Москве</h1>
                     <p>Профессиональная уборка офисов и квартир</p>
                 </div>
-                <form action="#" class="header-form">
-                    <div class="header-form-title">
+                <form action="#" class="banner-form">
+                    <div class="banner-form-title">
                         ЗАКАЗАТЬ&nbsp;УБОРКУ
                     </div>
-                    <input type="text" class="header-form-input" placeholder="Имя">
-                    <input type="text" class="header-form-input" placeholder="Телефон">
-                    <button class="header-form-btn">Оставить заявку</button>
-                </form>
+                    <input type="text" class="banner-form-input" placeholder="Имя">
+                    <input type="text" class="banner-form-input" placeholder="Телефон">
+                    <button class="banner-form-btn">Оставить заявку</button>
+                </form>          
+            </section>
+        </div>    
+
+        <!-- advanteges -->
+        <section class="advantages">
+            <div class="advantage">
+                 <img src="./images/icon/advantage-icon1.svg" alt="" class="advantage-img">
+                <div class="advantage-desc">
+                     Используем только БЕЗОПАСНЫЕ Эко&nbsp;-&nbsp;средства
+                 </div>
+             </div>
+               <div class="advantage">
+                <img src="./images/icon/advantage-icon2.svg" alt="" class="advantage-img">
+                <div class="advantage-desc">
+                    Опытные, проверенные годами клинеры
+                </div>
+             </div>
+              <div class="advantage">
+                <img src="./images/icon/advantage-icon3.svg" alt="" class="advantage-img">
+                <div class="advantage-desc">
+                    Гарантия качества на все виды работ
+                </div>
             </div>
-        </div>
-    </header>
-    <section class="advantages">
-        <div class="advantage">
-            <img src="./images/icon/advantage-icon1.svg" alt="" class="advantage-img">
-            <div class="advantage-desc">
-                Используем только БЕЗОПАСНЫЕ Эко&nbsp;-&nbsp;средства
+            <div class="advantage">
+                <img src="./images/icon/advantage-icon4.svg" alt="" class="advantage-img">
+                <div class="advantage-desc">
+                    Честная цена -<br>Вы знаете за что платите
+                </div>
             </div>
-        </div>
-        <div class="advantage">
-            <img src="./images/icon/advantage-icon2.svg" alt="" class="advantage-img">
-            <div class="advantage-desc">
-                Опытные, проверенные годами клинеры
-            </div>
-        </div>
-        <div class="advantage">
-            <img src="./images/icon/advantage-icon3.svg" alt="" class="advantage-img">
-            <div class="advantage-desc">
-                Гарантия качества на все виды работ
-            </div>
-        </div>
-        <div class="advantage">
-            <img src="./images/icon/advantage-icon4.svg" alt="" class="advantage-img">
-            <div class="advantage-desc">
-                Честная цена -<br>Вы знаете за что платите
-            </div>
-        </div>
-    </section>  
-    </body>
+        </section>  
+    </div>
+</body>
 </html>
