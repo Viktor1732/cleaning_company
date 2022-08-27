@@ -181,8 +181,6 @@ body {
     left: 0;
 }
 
-.header-heading {}
-
 .header-form {
     width: 340px;
     height: 325px;
@@ -229,4 +227,33 @@ body {
 
 .header-form-btn:hover {
     background-color: #ffa734;
+}
+
+
+/* advantages */
+
+.advantages {
+    max-width: 1393px;
+    height: 133px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: ffffff;
+}
+.advantage {
+    display: flex;
+    column-gap: 31px;
+}
+.advantage-img {
+    width: 81px;
+    height: 81px;
+}
+.advantage-desc {
+    max-width: 136px;
+    color: #2F3131;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
 }
