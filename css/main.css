@@ -194,6 +194,19 @@ body {
     font-size: 48px;
     color: #2F3131;
     line-height: 1.3;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-heading h1::before{
+    content: "";
+    position: absolute;
+    filter: blur(85px);
+    background: rgba(255, 255, 255, 10);
+    display: block;
+    z-index: -1;
+    width: 500px;
+    height: 350px;
 }
 
 .banner-heading p {
@@ -203,6 +216,7 @@ body {
     max-width: 270px;
     line-height: 1.2;
     margin-top: 35px;
+    z-index: 2;
 }
 
 .banner-heading p::after {
