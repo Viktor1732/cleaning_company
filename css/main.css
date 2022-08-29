@@ -10,18 +10,12 @@ body {
 .container {
     width: 1920px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 
 /* nav */
 
-.header-container {
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container-nav {
+.wrapper-nav {
     background-color: #EFEFEE;
     max-width: 1920px;
     height: 54px;
@@ -395,14 +389,22 @@ body {
 
 /* numbers-and-facts */
 
-.numbers-and-facts {
+/* numbers-info */
+/* numbers-top */
+
+.numbers-top {
     width: 1920px;
     background-color: #FFFFFF;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
-.numbers-container {
+.numbers-top-container {
+    max-width: 1393px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.numbers-top-container {
     max-width: 1393px;
     margin-left: auto;
     margin-right: auto;
