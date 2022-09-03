@@ -712,9 +712,11 @@ body {
 }
 
 .sliders-images { /*устанавливает общий размер блока с изображениями*/
-    width: 100%;
+    width: 300%;
     height: 100%;
 	line-height: 0;
+    display: flex;
+    align-items: center;
 } 
 
 .slider-img-wrap {
@@ -722,9 +724,12 @@ body {
 	float: left; /*все изображения справа друг от доруга*/
 }
 
-.slider-img {
-    margin-top: auto;
-    margin-bottom: auto;
+.slider-img2 {
+    margin-right: 70px;
+}
+
+.slider-img3 {
+    margin-bottom: 30px;
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
@@ -733,10 +738,9 @@ body {
 
 /*настройка переключения и положения для левой стрелки*/
 /*если свич1-4 активны, то идет обращение к лейблу из блока с id контролс*/
-#switch1:checked ~ #sliders-controls label:nth-child(4), 
+#switch1:checked ~ #sliders-controls label:nth-child(3), 
 #switch2:checked ~ #sliders-controls label:nth-child(1),
-#switch3:checked ~ #sliders-controls label:nth-child(2),
-#switch4:checked ~ #sliders-controls label:nth-child(3) {
+#switch3:checked ~ #sliders-controls label:nth-child(2) {
 	background: url('../images/icon/left-arrow.svg') no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
 	margin: -75px 0 0 -45px; /*сдвиг влево*/
@@ -748,8 +752,7 @@ body {
 /*настройка переключения и положения для правой стрелки*/
 #switch1:checked ~ #sliders-controls label:nth-child(2), 
 #switch2:checked ~ #sliders-controls label:nth-child(3),
-#switch3:checked ~ #sliders-controls label:nth-child(4),
-#switch4:checked ~ #sliders-controls label:nth-child(1) {
+#switch3:checked ~ #sliders-controls label:nth-child(1) {
 	background: url('../images/icon/right-arrow.svg') no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
 	margin: -75px -45px 0 0; /*сдвиг вправо*/
@@ -773,10 +776,6 @@ body {
 
 #switch3:checked ~ #clients-sliders .sliders-images{
 	margin-left: -200%;
-}
-
-#switch4:checked ~ #clients-sliders .sliders-images{
-	margin-left: -300%;
 }
 
 #sliders-active {
