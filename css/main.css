@@ -502,6 +502,8 @@ body {
 .numbers-bottom {
     width: 1920px;
     background-color: #016C88;
+    z-index: 999;
+    position: absolute;
 }
 
 .number-cards {
@@ -808,4 +810,84 @@ body {
 
 .clients-sliders .sliders-images {  /*анимация пролистывания изображений*/
 	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);	
+}
+
+
+/* contract-info */
+
+.contract-info {
+    width: 1920px;
+    background-color: #EFEFEE;
+}
+
+.contract-container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 92px;
+    padding-bottom: 98px;
+}
+
+.contract-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 1.35;
+    margin-bottom: 72px;
+}
+
+.contract-cards-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contract-cards-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.contract-card {
+    display: flex;
+}
+
+.contract-card-icon {
+    margin-right: 35px;
+}
+
+.contract-card-icon img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.contract-card-desc {
+    max-width: 370px;
+}
+
+.contract-desc-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.contract-desc-text {
+    font-size: 18px;
+    line-height: 1.25;
+    color: #000000;
+    max-width: 277px;
+}
+
+.contract-text-enjoy {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 65px;
 }
