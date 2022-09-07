@@ -1081,3 +1081,139 @@ body {
 .WhatsApp-btn:hover {
     background-color: #FFCC34;
 }
+
+
+/* reviews */
+
+.reviews {
+    width: 1920px;
+    background-color: #EFEFEE;
+    padding: 122px 192px 80px 192px;
+}
+
+.review-contanier {
+    max-width: 1556px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    line-height: 1.35;
+    text-transform: uppercase;
+    margin-bottom: 108px;
+}
+
+.reviews-slider {
+    width: 100%;
+}
+
+.reviews-respond {
+
+}
+
+#review-switch1 {}
+#review-switch2 {}
+#review-switch3 {}
+
+.reviews-cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+.review-card1 {
+    max-width: 487px;
+    background-color: #FFFFFF;
+    padding: 40px 90px 50px 70px;
+    border-radius: 30px;
+    filter: drop-shadow(0 6px 30px rgba(0, 72, 90, 0.4));
+}
+
+.review-card2 {
+    max-width: 487px;
+    background-color: #FFFFFF;
+    padding: 40px 90px 50px 70px;
+    border-radius: 30px;
+    filter: drop-shadow(0 6px 30px rgba(0, 72, 90, 0.4));
+}
+
+.review-card3 {
+    max-width: 487px;
+    background-color: #FFFFFF;
+    padding: 40px 90px 50px 70px;
+    border-radius: 30px;
+    filter: drop-shadow(0 6px 30px rgba(0, 72, 90, 0.4));
+}
+
+.review-name{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.review-mark {
+    display: flex;
+    column-gap: 5px;
+    padding: 0px 16px;
+    background-color: #FFCC34;
+    border-radius: 13px;
+    align-items: center;
+}
+
+.review-mark p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.review-mark img {
+    width: 12px;
+    height: 12px;
+}
+
+.review-card-name {
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+}
+
+.review-service {
+    margin-top: 22px;
+    width: 196px;
+    height: 40px;
+    background-color: #2F869D;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.review-service p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 26px;
+}
+
+.review-text {
+    margin-top: 40px;
+    margin-left: 15px;
+    color: #2F3131;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: justify;
+}
+
+.review-date {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-weight: 700;
+    color: #000000;
+}
